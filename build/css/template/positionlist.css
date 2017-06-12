@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+body {
+  font-size: 0.42666667rem;
+}
+.position-list {
+  margin: 0;
+  padding: 7px 3px;
+}
+.position-list .item {
+  list-style: none;
+}
+.position-list .item .logo {
+  width: 1.73333333rem;
+  height: 1.73333333rem;
+  margin-right: 13px;
+}
+.position-list .item .title {
+  margin: 0;
+}
+.position-list .item .text {
+  margin: 0;
+}
