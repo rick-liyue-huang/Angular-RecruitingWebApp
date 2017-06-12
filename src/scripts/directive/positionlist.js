@@ -4,7 +4,10 @@ angular.module('app')
 		return {
 			restrict: 'A',
 			replace: true,
-			templateUrl: 'view/template/positionlist.html'
+			templateUrl: 'view/template/positionlist.html',
+			scope: {
+				data: '='
+			}
 		};
 
 	}]);
